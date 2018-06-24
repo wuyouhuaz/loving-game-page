@@ -1,0 +1,313 @@
+p {
+    line-height: 1rem;
+}
+
+.header {
+    height: 320px;
+    background-image: url(../img/pubg/juedi.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header .header-nav {
+    margin-top: 190px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.introduction {
+    background-color: rgb(29, 43, 46);
+    padding: 40px 0;
+    height: 506px;
+}
+
+.introduction .intro-area {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.introduction .intro-area>* {
+    display: inline-block;
+}
+
+.introduction .intro-area .desc {
+    width: 85%;
+    /* vertical-align: top; */
+    color: #f6f6f6;
+}
+
+.introduction .game-info {
+    color: #f6f6f6;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.introduction .game-links {
+    color: #f6f6f6;
+}
+
+.introduction .game-links a {
+    color: #f6f6f6;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.introduction .game-links a:hover {
+    color: #e69800;
+    transform: scale(1.1);
+}
+
+.introduction .game-links a:active {
+    color: #e69800;
+}
+
+.news-title,
+.raiders-title,
+.combat-title,
+.optim-title {
+    font-size: 30px;
+    text-align: center;
+    background-color: #eee;
+    padding: 60px 0;
+    box-shadow: inset 0px 0px 50px #000;
+    word-spacing: 5px;
+    letter-spacing: 15px;
+    font-weight: bold;
+}
+
+.news,
+.raiders,
+.combat,
+.game-optim {
+    /* background-image: url(../../img/jdqs.jpg);
+    background-size: cover;
+    height: 820px; */
+    background-color: rgb(29, 43, 46);
+    padding: 40px 0;
+}
+
+.news .news-content,
+.combat .combat-content,
+.game-optim .optim-content {
+    background-color: #fff;
+}
+
+.news .news-content,
+.raiders .raiders-content,
+.combat .combat-content,
+.game-optim .optim-content {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news .news-content .content {
+    padding: 30px 50px;
+}
+
+.news .news-content .content img {
+    width: 500px;
+    height: 300px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.news .news-content .content img:hover {
+    transform: scale(1.05);
+}
+
+.news .news-content .content p {
+    margin-top: 0;
+}
+
+.news .news-content .content p a {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.news .news-content .content p a:hover {
+    color: #e69800;
+    transform: scale(1.1);
+}
+
+.news .news-content .content p a:aci {
+    color: #e69800;
+}
+
+.raiders .raiders-content .raiders-list-map,
+.raiders .raiders-content .raiders-list-car-gun {
+    width: 49.5%;
+    padding: 20px 20px;
+    background-color: #fff;
+}
+
+.raiders .raiders-content .raiders-list-map {
+    margin-right: 10px;
+}
+
+.raiders .raiders-content .raiders-list-map .map-nav,
+.raiders .raiders-content .raiders-list-car-gun .car-gun-nav {
+    background-color: rgb(29, 43, 46);
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.raiders .raiders-content h2 {
+    text-align: center;
+    color: #e69800;
+    margin-top: 0;
+}
+
+.raiders .raiders-content .map-nav a,
+.raiders .raiders-content .car-gun-nav a {
+    color: #e69800;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.raiders .raiders-content .map-nav a:hover,
+.raiders .raiders-content .car-gun-nav a:hover {
+    color: #f6f6f6;
+}
+
+.raiders .raiders-content .map-nav a:active,
+.raiders .raiders-content .car-gun-nav a:active {
+    color: #f6f6f6;
+}
+
+.raiders .raiders-content h3,
+.combat .combat-content h3,
+.game-optim .optim-content h3 {
+    background: url(http://image.gamersky.com/webimg13/s_zq/playbattlegrounds/mtt.png) no-repeat;
+    color: #e69800;
+    padding-left: 36px;
+}
+
+.raiders .raiders-content li,
+.combat .combat-content li,
+.game-optim .optim-content li {
+    padding: 10px 10px;
+}
+
+.raiders .raiders-content .map-list a:hover,
+.raiders .raiders-content .parachute-list a:hover,
+.combat .combat-content .shooting-list a:hover,
+.game-optim .optim-content .optim-list a:hover {
+    color: #e69800;
+}
+
+.raiders .raiders-content .map-list a:active,
+.raiders .raiders-content .parachute-list a:active,
+.combat .combat-content .shooting-list a:active,
+.game-optim .optim-content .optim-list a:active {
+    color: #e69800;
+}
+
+.raiders .raiders-content ul>li:nth-child(odd),
+.combat .combat-content ul>li:nth-child(odd),
+.game-optim .optim-content ul>li:nth-child(odd) {
+    background-color: rgb(29, 43, 46);
+}
+
+.raiders .raiders-content ul>li:nth-child(odd) a,
+.raiders .raiders-content ul>li:nth-child(odd) p,
+.combat .combat-content ul>li:nth-child(odd) a,
+.combat .combat-content ul>li:nth-child(odd) p,
+.game-optim .optim-content ul>li:nth-child(odd) a,
+.game-optim .optim-content ul>li:nth-child(odd) p {
+    color: #f6f6f6;
+}
+
+.raiders .raiders-content ul>li:nth-child(even) a,
+.raiders .raiders-content ul>li:nth-child(even) p,
+.combat .combat-content ul>li:nth-child(even) a,
+.combat .combat-content ul>li:nth-child(even) p,
+.game-optim .optim-content ul>li:nth-child(even) a,
+.game-optim .optim-content ul>li:nth-child(even) p {
+    color: rgb(29, 43, 46);
+}
+
+.combat .combat-nav {
+    background-color: #f6f6f6;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+
+.combat .combat-nav a {
+    color: rgb(29, 43, 46);
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.combat .combat-nav a:hover {
+    color: #e69800;
+}
+
+.combat .combat-nav a:active {
+    color: #e69800;
+}
+
+.combat .combat-content {
+    padding: 20px 20px;
+}
+
+.combat .combat-content .combat-v {
+    width: 39.5%;
+    padding: 20px;
+    background-color: rgb(29, 43, 46);
+}
+
+.combat .combat-content .shooting-list {
+    width: 59.5%;
+    padding: 0 20px;
+}
+
+.game-optim .optim-content {
+    padding: 20px 20px;
+    height: 820px;
+}
+
+.game-optim .optim-content .introdu {
+    width: 55.5%;
+    background-color: rgb(29, 43, 46);
+    padding: 20px 20px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.game-optim .optim-content .optim-list {
+    width: 43.5%;
+    padding: 0px 20px;
+}
+
+.game-optim .optim-content .introdu h2 {
+    text-align: center;
+    color: #e69800;
+}
+
+.game-optim .optim-content .introdu p {
+    line-height: 1.5;
+    color: #f6f6f6;
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: #d3cbd3;
+    padding: 100px 0;
+    box-shadow: inset 5px 5px 80px #000;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+}

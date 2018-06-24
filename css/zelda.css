@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    background-image: url(../img/zelda/zelda.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header .header-nav {
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: #ecddec;
+    padding: 100px 0;
+}
+
+.footer .copyright {
+    color: #aaa;
+    text-align: center;
+    font-size: 16px;
+}
